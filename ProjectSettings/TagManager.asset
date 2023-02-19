@@ -8,6 +8,8 @@ TagManager:
   - StopScene
   - StartScene
   - PauseScene
+  - SkullCard
+  - DeadGuy
   layers:
   - Default
   - TransparentFX
