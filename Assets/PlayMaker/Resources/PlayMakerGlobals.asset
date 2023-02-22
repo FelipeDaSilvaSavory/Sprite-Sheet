@@ -25,7 +25,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 8
+      value: 6
     - useVariable: 1
       name: Jumps
       tooltip: 
@@ -56,6 +56,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: Direction
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables: []
     boolVariables:
     - useVariable: 1
@@ -74,6 +80,12 @@ MonoBehaviour:
     vector2Variables:
     - useVariable: 1
       name: CameraPos
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0}
+    - useVariable: 1
+      name: WeaponMove
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -140,10 +152,13 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - CollectedSkull
   - Open
   - Close
   - HoldS
   - PressSpace
+  - UpAttack
+  - InteractionLeft
+  - Interaction
