@@ -10,6 +10,10 @@ TagManager:
   - PauseScene
   - SkullCard
   - DeadGuy
+  - Skull
+  - Sythe
+  - Turn
+  - Platformer
   layers:
   - Default
   - TransparentFX
