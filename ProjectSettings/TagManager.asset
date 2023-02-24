@@ -14,6 +14,9 @@ TagManager:
   - Sythe
   - Turn
   - Platformer
+  - Door
+  - Sign1
+  - Sign2
   layers:
   - Default
   - TransparentFX
