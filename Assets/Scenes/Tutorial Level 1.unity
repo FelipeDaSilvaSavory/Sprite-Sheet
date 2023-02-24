@@ -72273,7 +72273,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 50
-        y: 100
+        y: 116
         width: 100
         height: 16
       isBreakpoint: 0
@@ -72324,8 +72324,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 187
-        y: 100
+        x: 186
+        y: 113
         width: 114
         height: 16
       isBreakpoint: 0
@@ -72653,7 +72653,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 4242304655373437017, guid: 4a5c46f3efdd82f49aecf6466d57cfc5, type: 3}
+          value: {fileID: 5443120381073124033, guid: 4a5c46f3efdd82f49aecf6466d57cfc5, type: 3}
         - useVariable: 0
           name: 
           tooltip: 
@@ -73701,16 +73701,16 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: GetPlatform
-    startState: State 1
+    startState: Collide Event
     states:
-    - name: State 1
+    - name: Collide Event
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 50
         y: 100
-        width: 100
+        width: 106
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -73720,7 +73720,7 @@ MonoBehaviour:
           name: Done
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Get Tag
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -73806,7 +73806,7 @@ MonoBehaviour:
         - storeForce
         paramDataPos: 00000000000000000000000000000000000000000000000000000000
         paramByteDataSize: 00000000040000000000000000000000000000000000000000000000
-    - name: State 2
+    - name: Get Tag
       description: 
       colorIndex: 0
       position:
@@ -73823,7 +73823,7 @@ MonoBehaviour:
           name: Done
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Collide Event
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -79048,9 +79048,9 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: PlatformPass
-    startState: State 1
+    startState: Hold S
     states:
-    - name: State 1
+    - name: Hold S
       description: 
       colorIndex: 0
       position:
@@ -79067,7 +79067,7 @@ MonoBehaviour:
           name: Ready
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Jump
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -79142,7 +79142,7 @@ MonoBehaviour:
         - setAllColliders
         paramDataPos: 000000000000000000000000000000000100000004000000
         paramByteDataSize: 040000000000000000000000000000000000000001000000
-    - name: State 2
+    - name: Jump
       description: 
       colorIndex: 0
       position:
@@ -79159,7 +79159,7 @@ MonoBehaviour:
           name: Ready
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Pass through Platform
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -79168,7 +79168,7 @@ MonoBehaviour:
           name: Cancel
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Hold S
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -79236,14 +79236,14 @@ MonoBehaviour:
         - storeResult
         paramDataPos: 000000000000000000000000040000000100000001000000
         paramByteDataSize: 040000000000000000000000040000000000000000000000
-    - name: State 3
+    - name: Pass through Platform
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 392
-        y: 139
-        width: 100
+        x: 213
+        y: 180
+        width: 162
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -79253,7 +79253,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Hold S
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -94450,15 +94450,15 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: Turn
-    startState: State 1
+    startState: Right
     states:
-    - name: State 1
+    - name: Right
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50
-        y: 100
+        x: 52.640625
+        y: 104.203125
         width: 100
         height: 32
       isBreakpoint: 0
@@ -94469,7 +94469,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 2
+        toState: Left
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -94600,13 +94600,13 @@ MonoBehaviour:
         - storeResult
         paramDataPos: 00000000010000000000000000000000010000000100000000000000000000000200000003000000040000000200000003000000040000000000000000000000
         paramByteDataSize: 00000000000000000100000000000000000000000100000000000000000000000000000000000000000000000100000001000000040000000000000000000000
-    - name: State 2
+    - name: Left
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 208
-        y: 100
+        x: 211.67188
+        y: 100.08594
         width: 100
         height: 32
       isBreakpoint: 0
@@ -94617,7 +94617,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: Right
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0

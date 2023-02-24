@@ -37788,15 +37788,15 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: FSM
-    startState: State 1
+    startState: S up
     states:
-    - name: State 1
+    - name: S up
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50
-        y: 100
+        x: 53
+        y: 107
         width: 100
         height: 32
       isBreakpoint: 0
@@ -37807,7 +37807,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 2
+        toState: S down
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -37908,12 +37908,12 @@ MonoBehaviour:
         - storeResult
         paramDataPos: 00000000000000000000000000000000010000000100000000000000
         paramByteDataSize: 00000000000000000000000001000000040000000000000000000000
-    - name: State 2
+    - name: S down
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 217
+        x: 233
         y: 105
         width: 100
         height: 32
@@ -37925,7 +37925,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: State 1
+        toState: S up
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -49516,8 +49516,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 229
-        y: 102
+        x: 326.45312
+        y: 254.59375
         width: 114
         height: 16
       isBreakpoint: 0
@@ -54244,7 +54244,6 @@ GameObject:
   - component: {fileID: 1334524030}
   - component: {fileID: 1334524028}
   - component: {fileID: 1334524027}
-  - component: {fileID: 1334524026}
   - component: {fileID: 1334524025}
   - component: {fileID: 1334524024}
   - component: {fileID: 1334524037}
@@ -54344,225 +54343,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1334524026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334524022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: Load Sprites
-    startState: State 1
-    states:
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 50
-        y: 100
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.ActivateGameObject
-        - HutongGames.PlayMaker.Actions.ActivateGameObject
-        - HutongGames.PlayMaker.Actions.ActivateGameObject
-        customNames:
-        - 
-        - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000050000000a000000
-        actionHashCodes: b2cf1000b2cf1000b2cf1000
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams:
-        - ownerOption: 1
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 539968868}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 366542908}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 736831718}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 000000000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000
-        paramName:
-        - gameObject
-        - activate
-        - recursive
-        - resetOnExit
-        - everyFrame
-        - gameObject
-        - activate
-        - recursive
-        - resetOnExit
-        - everyFrame
-        - gameObject
-        - activate
-        - recursive
-        - resetOnExit
-        - everyFrame
-        paramDataPos: 000000000000000001000000000000000100000001000000020000000300000002000000030000000200000004000000050000000400000005000000
-        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000
-    events: []
-    globalTransitions: []
-    variables:
-      floatVariables: []
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    outVariableIndices: 
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
-    ExposedEvents: []
-    OutputEvents: []
-    RestartOnEnable: 1
-    ResetVariablesOnEnable: 0
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 225
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
 --- !u!114 &1334524027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54586,8 +54366,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 403
-        y: 107.91406
+        x: 62.109375
+        y: 109.03125
         width: 100
         height: 16
       isBreakpoint: 0
@@ -54638,8 +54418,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 508
-        y: 156
+        x: 652
+        y: 92
         width: 100
         height: 32
       isBreakpoint: 0
@@ -54911,8 +54691,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 693
-        y: 166
+        x: 837
+        y: 102
         width: 100
         height: 32
       isBreakpoint: 0
@@ -54984,8 +54764,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 556
-        y: 291
+        x: 700
+        y: 227
         width: 100
         height: 32
       isBreakpoint: 0
@@ -55103,8 +54883,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 230
-        y: 174
+        x: 374
+        y: 110
         width: 112
         height: 48
       isBreakpoint: 0
@@ -55333,8 +55113,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 227.13281
-        y: 305.26562
+        x: 371.1328
+        y: 241.26562
         width: 100
         height: 32
       isBreakpoint: 0
@@ -55452,8 +55232,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 412.1328
-        y: 315.26562
+        x: 556.1328
+        y: 251.26562
         width: 100
         height: 32
       isBreakpoint: 0
@@ -55525,8 +55305,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 275.1328
-        y: 440.26562
+        x: 419.1328
+        y: 376.26562
         width: 100
         height: 32
       isBreakpoint: 0
@@ -55644,8 +55424,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 51.257812
-        y: 159.96875
+        x: 177.76562
+        y: 108.91406
         width: 100
         height: 16
       isBreakpoint: 0
@@ -55951,8 +55731,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 63.820312
-        y: 112.796875
+        x: 50.820312
+        y: 103.796875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -56096,8 +55876,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 261.09375
-        y: 113.00781
+        x: 212.09375
+        y: 101.00781
         width: 100
         height: 32
       isBreakpoint: 0
@@ -57142,23 +56922,14 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50
-        y: 100
+        x: 61
+        y: 112
         width: 100
-        height: 32
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: GetInput
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: Get Axis
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetAxis
@@ -57204,7 +56975,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 8
+          value: 6
         - useVariable: 1
           name: MovementX
           tooltip: 
@@ -57273,71 +57044,6 @@ MonoBehaviour:
         - fixedUpdate
         paramDataPos: 000000000000000000000000010000000000000000000000000000000200000003000000040000000100000005000000060000000700000008000000
         paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000000000000000000000400000001000000010000000100000001000000
-    - name: Get Axis
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 268
-        y: 101
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Move
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: Translate
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.NextFrameEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 88611604
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Move
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 17000000
-        paramName:
-        - sendEvent
-        paramDataPos: 00000000
-        paramByteDataSize: 00000000
     events:
     - name: Move
       isSystemEvent: 0
@@ -58177,7 +57883,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 52.453125
-        y: 245.44531
+        y: 229.44531
         width: 100
         height: 16
       isBreakpoint: 0
@@ -58228,8 +57934,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 339.08594
-        y: 201.57031
+        x: 339.0547
+        y: 178.96094
         width: 100
         height: 32
       isBreakpoint: 0
@@ -58436,7 +58142,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 459.04688
-        y: 352.84375
+        y: 336.84375
         width: 123
         height: 32
       isBreakpoint: 0
@@ -58580,8 +58286,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 488.21094
-        y: 268.7422
+        x: 482.89062
+        y: 234.25781
         width: 111
         height: 48
       isBreakpoint: 0
@@ -58681,7 +58387,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 612.9375
-        y: 166.21094
+        y: 150.21094
         width: 100
         height: 48
       isBreakpoint: 0
@@ -58847,7 +58553,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 664.6953
-        y: 322.9922
+        y: 306.9922
         width: 100
         height: 32
       isBreakpoint: 0
@@ -59054,7 +58760,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 200
-        y: 128.99219
+        y: 112.99219
         width: 101
         height: 32
       isBreakpoint: 0
@@ -59180,8 +58886,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 359
-        y: 109
+        x: 188.1875
+        y: 254.42969
         width: 100
         height: 16
       isBreakpoint: 0
@@ -60370,8 +60076,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50
-        y: 100
+        x: 61
+        y: 110
         width: 106
         height: 16
       isBreakpoint: 0
@@ -60394,7 +60100,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 4242304655373437017, guid: 4a5c46f3efdd82f49aecf6466d57cfc5, type: 3}
+          value: {fileID: 5443120381073124033, guid: 4a5c46f3efdd82f49aecf6466d57cfc5, type: 3}
         - useVariable: 0
           name: 
           tooltip: 
@@ -63724,7 +63430,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -4
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0, b: 0.8999224, a: 0.19215687}
   m_FlipX: 0
@@ -73477,7 +73183,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 130
+        x: 258
         y: 100
         width: 100
         height: 64
@@ -73642,7 +73348,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 320
+        x: 448
         y: 146
         width: 100
         height: 32
@@ -73752,8 +73458,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 52
-        y: 204
+        x: 55.960938
+        y: 156
         width: 100
         height: 32
       isBreakpoint: 0
@@ -73862,8 +73568,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 222.69531
-        y: 256.67188
+        x: 273.6953
+        y: 267.67188
         width: 100
         height: 16
       isBreakpoint: 0
@@ -74083,7 +73789,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000101
+        actionIsOpen: 010101
         actionStartIndex: 00000000070000000c000000
         actionHashCodes: 0cf26a00494916040ef11c05
         unityObjectParams: []
