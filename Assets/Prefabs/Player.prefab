@@ -1261,7 +1261,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 5443120381073124033, guid: 4a5c46f3efdd82f49aecf6466d57cfc5, type: 3}
+          value: {fileID: 7463244607084708912, guid: 4a5c46f3efdd82f49aecf6466d57cfc5, type: 3}
         - useVariable: 0
           name: 
           tooltip: 
@@ -7016,7 +7016,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 1103344282902150911, guid: 2892785a2df8c774fae229f6653de613, type: 3}
+          value: {fileID: 2803632433851642624, guid: 2892785a2df8c774fae229f6653de613, type: 3}
         - useVariable: 0
           name: 
           tooltip: 
