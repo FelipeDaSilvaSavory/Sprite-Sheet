@@ -80,6 +80,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 15
+    - useVariable: 1
+      name: MouseX
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: MouseY
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables: []
     boolVariables:
     - useVariable: 1
@@ -108,6 +120,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {x: 0, y: 0}
+    - useVariable: 1
+      name: MouseClick2D
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0}
+    - useVariable: 1
+      name: Target
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0}
     vector3Variables:
     - useVariable: 1
       name: SytheAnim
@@ -117,6 +141,12 @@ MonoBehaviour:
       value: {x: 0, y: 0, z: 0}
     - useVariable: 1
       name: Facing
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: MouseClick
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -170,7 +200,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - CollectedSkull
   - Open
