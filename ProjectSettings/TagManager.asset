@@ -17,6 +17,7 @@ TagManager:
   - Door
   - Sign1
   - Sign2
+  - Enemy
   layers:
   - Default
   - TransparentFX

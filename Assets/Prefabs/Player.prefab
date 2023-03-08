@@ -3642,7 +3642,7 @@ MonoBehaviour:
     editorFlags: 225
     activeStateName: 
     mouseEvents: 0
-    handleLevelLoaded: 0
+    handleLevelLoaded: 1
     handleTriggerEnter2D: 1
     handleTriggerExit2D: 0
     handleTriggerStay2D: 0
